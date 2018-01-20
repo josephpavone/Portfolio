@@ -1,0 +1,142 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {font-family: 'Raleway', sans-serif; 
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #ef5350;
+  font-family: 'Roboto'; 
+  font-size: 1.1em;  
+}
+
+nav .brand-logo {
+  font-size: 2.6em;
+  font-family: 'Monoton', cursive;
+  /*font-family: 'Ultra', serif;
+  /*font-family: 'Fascinate Inline', cursive;
+  /*font-family: 'Audiowide', cursive;
+  /*font-family: 'Lobster', cursive;
+  /*font-family: 'Righteous', cursive;
+  /*font-family: 'Racing Sans One', cursive;*/
+ 
+}
+
+.nav-wrapper {
+  padding: 0 50px;
+}
+
+.side-nav {
+  font-family: 'Roboto';
+}
+
+
+p {
+  line-height: 2rem;
+}
+  
+
+.button-collapse {
+  color: #ef5350;
+}
+
+.col-intro {
+  margin-bottom: 25px; 
+}
+
+.btn-large {
+  margin-top: 5px; 
+}
+
+.btn-send {
+  margin-bottom: 5%
+}
+
+.parallax-container {
+  min-height: 620px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .section-intro {
+    height: 100%;
+    width: 100%;
+  }
+
+.valign-wrapper {
+  min-height: 400px;
+  }
+
+.header {
+    margin-top: 150px;
+  }
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;     
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .nav-wrapper {
+    padding: 0 10px;
+  }
+}
+
+.col-servizio{
+  margin-top: 60px;
+  margin-bottom: 60px;  
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#servizio h5 {
+  font-size: 1.7em;
+  line-height: 1.6em; 
+}
+
+.section-project {
+  height: 100%;
+  width: 100%;
+}
+
+
+footer .page-footer {
+  margin: 0;
+}
+
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  font-size: 1.5em;
+  color: #fff;
+  padding: 0 5px;
+}
+
+.social-icon:hover {
+  color: #ef5350
+}
