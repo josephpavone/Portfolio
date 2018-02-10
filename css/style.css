@@ -46,12 +46,16 @@ p {
   color: #ef5350;
 }
 
+.row-center {
+  margin: 0px;
+}
+
 .col-intro {
-  margin-bottom: 25px; 
+  margin: 0px; 
 }
 
 .btn-large {
-  margin-top: 5px; 
+  margin-top: 0px; 
 }
 
 .btn-send {
@@ -98,8 +102,8 @@ p {
 }
 
 .col-servizio{
-  margin-top: 100px;
-  margin-bottom: 100px;  
+  margin-top: 50px;
+  margin-bottom: 50px;  
 }
 
 .icon-block {
